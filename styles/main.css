@@ -329,6 +329,16 @@ a {
   height: 694px;
   border: 24px solid var(--primary);
   border-radius: 50%;
+    transform: rotate(180deg);
+  animation: rotate 2s forwards;
+  animation-timeline: scroll();
+}
+
+@keyframes rotate {
+  40% {
+    transform: rotate(0deg);
+  }
+ 
 }
 .work-text {
   position: absolute;
