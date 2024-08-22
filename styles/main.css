@@ -99,6 +99,18 @@ a {
 }
 .header-img-container img {
   background-blend-mode: difference;
+    animation: fadeOut 2s forwards;
+  animation-timeline: scroll();
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: rotateY(50deg);
+  }
+  to {
+    opacity: 0;
+    transform: rotateZ(150deg);
+  }
 }
 .navbar {
   border-radius: 27px;
