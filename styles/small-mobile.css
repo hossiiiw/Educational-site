@@ -1,4 +1,4 @@
-@media (min-width: 0px) and (max-width: 501px) {
+@media (min-width: 0px) and (max-width: 500px) {
   .header .header-info {
     flex-direction: column-reverse;
   }
@@ -175,10 +175,31 @@
     height: 60vh;
   }
   .middle-card-container .middle-card {
+    position: relative;
     width: 80%;
   }
   .middle-card-container .middle-card-info p {
-    font-size: 18px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .middle-card-container .middle-card-info {
+    height: 150px;
+  }
+  .middle-card-container .middle-card-info span {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .middle-card-container .middle-card-img img {
+    position: relative;
+    top: -30px;
+    left: -5px;
+  }
+  .middle-card-container .middle-card-info button {
+    font-size: 10px;
+    width: 125px;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
   }
   /* <!-- ----------------------------------------------PROCESS PAGE------------------------------------------------  --> */
 
