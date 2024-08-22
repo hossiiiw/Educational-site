@@ -104,10 +104,10 @@ a {
 }
 @keyframes fadeOut {
   from {
-    transform: rotateY(50deg);
+    transform: rotateY(0deg);
   }
   to {
-    transform: rotateZ(360deg);
+    transform: rotateZ(180deg);
   }
 }
 .navbar {
