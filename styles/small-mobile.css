@@ -97,7 +97,8 @@
   .how-work-container .work-book {
     width: 35px;
     height: 35px;
-       animation: none;
+    transform: rotate(0deg);
+    animation: none;
   }
   .how-work-container .work-text {
     top: -70px;
