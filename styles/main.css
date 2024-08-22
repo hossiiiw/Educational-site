@@ -107,7 +107,7 @@ a {
     transform: rotateY(0deg);
   }
   to {
-    transform: rotateZ(180deg);
+    transform: rotateZ(360deg);
   }
 }
 .navbar {
