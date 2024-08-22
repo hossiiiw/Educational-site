@@ -104,11 +104,9 @@ a {
 }
 @keyframes fadeOut {
   from {
-
     transform: rotateY(50deg);
   }
   to {
-
     transform: rotateZ(150deg);
   }
 }
