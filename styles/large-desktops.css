@@ -1,0 +1,14 @@
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .header .books {
+    left: 50px;
+  }
+  .header .hamburger-icon {
+    display: none;
+  }
+  .header .hamburger-menu {
+    width: 0;
+    height: 0;
+  }
+
+  /* --------------footer--------------- */
+}

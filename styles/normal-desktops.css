@@ -1,0 +1,44 @@
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .header .books {
+    left: 30px;
+    top: 20px;
+    width: 60px;
+    height: 50px;
+  }
+  .header .hamburger-icon {
+    display: none;
+  }
+  .header .hamburger-menu {
+    width: 0;
+    height: 0;
+  }
+  .header .get-skills-text {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .header .header-img-container img {
+    width: 400px;
+    height: 600px;
+  }
+  .header .brand {
+    width: 70%;
+  }
+  .header .brand-container img {
+    width: 150px;
+  }
+  /* -----------------------------------ACCESS PAGE----------------------------------------------  */
+  .access-page .access-page-info {
+    width: 400px;
+    margin-right: 10%;
+  }
+  .access-page .access-text {
+    width: 100%;
+  }
+  .access-page .access-check p {
+    font-size: 12px;
+  }
+
+  /* <!-- --------------------------------------------MIDDLE CARD----------------------------------------- --> */
+  /* --------------footer--------------- */
+
+}

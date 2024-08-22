@@ -1,0 +1,229 @@
+@media (min-width: 0px) and (max-width: 501px) {
+  .header .header-info {
+    flex-direction: column-reverse;
+  }
+  .header .books {
+    width: 35px;
+    height: 35px;
+    top: 10px;
+    left: 15px;
+  }
+  .header .book {
+    width: 45px;
+    height: 45px;
+  }
+  .header .hamburger-icon {
+    display: block;
+    top: 25px;
+    right: 70px;
+    width: 40px;
+    height: 40px;
+  }
+  .header .theme-change {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 95px;
+    top: 12px;
+  }
+  .header .nav-section,
+  .header .nav-Login-btn,
+  .header .nav-SignUp-btn {
+    display: none;
+  }
+  .header .header-skills-top {
+    height: 250px;
+    width: 280px;
+  }
+  .header .get-skills-text {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .header .header-skills-top-middle {
+    width: 200px;
+  }
+  .header .header-skills-top-middle p {
+    width: 250px;
+    text-align: justify;
+    font-size: 12px;
+  }
+  .header .header-img-container img {
+    width: 300px;
+    height: 300px;
+  }
+  .header .get-start {
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .header .header-skills-top-btn {
+    margin-top: 20px;
+  }
+  .header .header-skills-top-btn div {
+    width: 40px;
+    height: 40px;
+  }
+  .header .header-poly img {
+    width: 15px;
+    height: 15px;
+  }
+  .header .header-skills-bottom-top p,
+  .header .header-skills-bottom-bottom p {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .header .header-skills-bottom-top span,
+  .header .header-skills-bottom-bottom span {
+    font-size: 15px;
+  }
+  .header .brand {
+    width: 70%;
+    height: 100px;
+  }
+  .header .brand-container img {
+    width: 50px;
+  }
+
+  /* ------------------------------HOW IT WOR---------------------------  */
+  body .how-work-container {
+    margin-top: 100px;
+  }
+  .how-work-container .how-work {
+    width: 50px;
+    height: 850px;
+    background-color: #608bff;
+    border-radius: 25px;
+  }
+  .how-work-container .work-book {
+    width: 35px;
+    height: 35px;
+  }
+  .how-work-container .work-text {
+    top: -70px;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+  }
+  .how-work-container .work-item1 {
+    top: 15px;
+    left: -70px;
+  }
+  .how-work-container .work-item2 {
+    top: 225px;
+    left: -70px;
+  }
+  .how-work-container .work-item3 {
+    top: 435px;
+    left: -70px;
+  }
+  .how-work-container .work-item4 {
+    top: 640px;
+    left: -70px;
+  }
+  .how-work-container .info-1 div {
+    width: 30px;
+    height: 30px;
+  }
+  .how-work-container .info-1 img {
+    width: 15px;
+    height: 15px;
+  }
+  .how-work-container .how-work-div {
+    width: 150px;
+    height: 150px;
+  }
+  .how-work-container .info-1 p {
+    font-size: 12px;
+  }
+  .how-work-container .info-1 span {
+    width: 150px;
+    height: 68px;
+    font-size: 8px;
+  }
+  /* -----------------------ACCESS CHECK-----------------------  */
+  .main .access-page {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .access-page .graph {
+    width: 400px;
+    height: 563px;
+  }
+  .access-page .girl-img {
+    width: 380px;
+    height: 450px;
+    left: 0px;
+  }
+
+  .access-page .access-text {
+    width: 350px;
+  }
+  .access-page .access-text p {
+    font-size: 30px;
+  }
+  .access-page .access-text span {
+    font-size: 16px;
+  }
+  .access-page .access-check p {
+    font-size: 16px;
+  }
+  /* <!-- --------------------------------------------MIDDLE CARD----------------------------------------- --> */
+  body .middle-card-container {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+  }
+  .middle-card-container .middle-card {
+    width: 80%;
+  }
+  .middle-card-container .middle-card-info p {
+    font-size: 18px;
+  }
+  /* <!-- ----------------------------------------------PROCESS PAGE------------------------------------------------  --> */
+
+  main .process-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .process-page .process-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    gap: 10px;
+  }
+  .process-page .process-info button {
+    margin: 0 auto;
+  }
+  .process-page .process-info p {
+    font-size: 35px;
+  }
+  .process-page .process-img {
+    width: 350px;
+  }
+  .process-page .process-img img {
+    width: 320px;
+    height: 400px;
+  }
+
+  /* ---------------footer---------------------------- */
+  .footer .list-item {
+    font-size: 10px;
+  }
+
+  /* ---------------footer---------------------------- */
+  .footer .list-item {
+    font-size: 10px;
+  }
+  .footer .last {
+    background-color: bisque;
+    display: none;
+  }
+  .footer .footer-bottom:nth-child(1) {
+    display: none;
+  }
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- --------------------------BOOTSTRAP------------------------------ -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ------------------------------------------------------------------------ -->
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Edu.dot</title>
+  </head>
+  <body class="d-flex align-items-center flex-column justify-content-center">
+    <header
+      class="header d-flex flex-column justify-content-center align-items-center"
+    >
+      <img class="book" src="./assets/book.png" alt="" />
+      <img class="books" src="./assets/books.png" alt="" />
+      <!-- <img class="hamburger-icon" src="./assets/navbar/menu.png" alt="" /> -->
+      <!-- -----------------------------------HAMBURGER MENU----------------- -->
+      <img
+        src="./assets/navbar/menu.png"
+        alt="hamburger-menu"
+        class="hamburger-icon"
+      />
+      <div class="hamburger-menu">
+        <ul class="ham-list py-5 my-3">
+          <li class="ham-links5"><a href="#">Login</a></li>
+          <li class="ham-links6"><a href="#">Sign up</a></li>
+          <li class="ham-links1"><a href="#">Homes</a></li>
+          <li class="ham-links2"><a href="#">Courses</a></li>
+          <li class="ham-links3"><a href="#">Teacher</a></li>
+          <li class="ham-links4"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <!-- -----------------------------------END HAMBURGER MENU----------------- -->
+      <!-- ------------------------NAVBAR-------------------------------- -->
+      <nav class="navbar d-flex justify-content-around align-items-center my-3">
+        <!--  -->
+        <div class="navbar-logo">
+          <p class="h4">Edo.dot</p>
+        </div>
+        <!--  -->
+        <div class="nav-section">
+          <ul class="nav-list d-flex">
+            <li class="nav-items1 active">
+              <a href="#" class="nav-links1">Homes</a>
+            </li>
+            <li class="nav-items2">
+              <a href="#">
+                Courses
+                <img src="./assets/navbar/angle-down.png" alt="angle" />
+              </a>
+              <div class="dropdown">
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+              </div>
+            </li>
+            <li class="nav-items3">
+              <a href="#" class="nav-links3">Teacher</a>
+            </li>
+            <li class="nav-items4">
+              <a href="#" class="nav-links4">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--  -->
+        <div class="nav-form-btn">
+          <ul class="nav-btn d-flex align-items-center">
+            <li class="theme-change">
+              <img src="./assets/them icons/sun.png" alt="" />
+            </li>
+            <li class="nav-Login-btn"><a href="#">Login</a></li>
+            <li class="nav-SignUp-btn"><a href="#">Sign up</a></li>
+          </ul>
+        </div>
+        <!--  -->
+      </nav>
+      <!-- ---------------------------------------END NAVBAR----------------------  -->
+      <section
+        class="header-info d-flex justify-content-around align-items-center my-5"
+      >
+        <!--  -->
+        <div class="header-skills">
+          <div
+            class="header-skills-top d-flex flex-column justify-content-around"
+          >
+            <div class="header-skills-top-top-text">
+              <p class="get-skills-text">
+                Get Skills <br />From Our Top <br /><span class="header-text"
+                  >Class Courses</span
+                >
+              </p>
+            </div>
+            <!--  -->
+            <div class="header-skills-top-middle">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, earum! Perspiciatis, doloremque maiores.
+              </p>
+            </div>
+            <!--  -->
+            <div class="header-skills-top-btn d-flex align-items-center">
+              <button class="get-start">Get Started</button>
+              <div class="mx-3">
+                <div class="header-poly">
+                  <img src="./assets/navbar/play-xxl.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end header-skills-top -->
+          <div class="header-skills-bottom my-4 d-flex justify-content-between">
+            <div class="header-skills-bottom-top">
+              <p>498+</p>
+              <span>Course Completed</span>
+            </div>
+            <!--  -->
+            <div class="header-skills-bottom-bottom">
+              <p>5k+</p>
+              <span>Happy Student</span>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="header-image">
+          <div class="header-img-container d-flex align-items-center">
+            <img src="./assets/test.png" alt="" />
+          </div>
+        </div>
+        <!--  -->
+      </section>
+      <!-- ---------------------- end header-info ------------------------------  -->
+      <!-- ----------------------------header brand---------------------------------- -->
+      <section
+        class="brand container-fluid d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="brand-container d-flex align-items-center justify-content-around"
+        >
+          <img src="./assets/brands/google.png" alt="brand" />
+          <img src="./assets/brands/coursera.png" alt="brand" />
+          <img src="./assets/brands/facebook.png" alt="brand" />
+          <img src="./assets/brands/udemy.png" alt="brand" />
+        </div>
+      </section>
+      <!-- ----------------------------end header brand---------------------------------- -->
+    </header>
+    <!-- ----------------------------------end header----------------------------------- -->
+    <main class="main d-flex flex-column gap-5">
+      <!-- ------------------------------------How it work------------------------------------- -->
+      <section
+        class="how-work-container d-flex align-items-center justify-content-center py-5"
+      >
+        <img class="work-book work-book1" src="./assets/books.png" alt="" />
+        <img class="work-book work-book3" src="./assets/book.png" alt="" />
+        <img class="work-book work-book2" src="./assets/books.png" alt="" />
+        <img class="work-book work-book4" src="./assets/book.png" alt="" />
+        <div class="how-work">
+          <p class="work-text h1">HOW it work</p>
+          <div class="how-work-div work-item1">
+            <div class="work-info info-1">
+              <div class="my-2">
+                <img src="./assets/icons/search.png" alt="" />
+              </div>
+              <p class="h5">Find Your Course</p>
+              <span class="my-1"
+                >Lorem ipsum dolor sit amet consectetur adipisicing
+              </span>
+            </div>
+          </div>
+          <div class="how-work-div work-item2">
+            <div class="work-info info-1">
+              <div class="my-2">
+                <img src="./assets/icons/search.png" alt="" />
+              </div>
+              <p class="h5">Find Your Course</p>
+              <span class="my-1"
+                >Lorem ipsum dolor sit amet consectetur adipisicing
+              </span>
+            </div>
+          </div>
+          <div class="how-work-div work-item3">
+            <div class="work-info info-1">
+              <div class="my-2">
+                <img src="./assets/icons/search.png" alt="" />
+              </div>
+              <p class="h5">Find Your Course</p>
+              <span class="my-1"
+                >Lorem ipsum dolor sit amet consectetur adipisicing
+              </span>
+            </div>
+          </div>
+          <div class="how-work-div work-item4">
+            <div class="work-info info-1">
+              <div class="my-2">
+                <img src="./assets/icons/search.png" alt="" />
+              </div>
+              <p class="h5">Find Your Course</p>
+              <span class="my-1"
+                >Lorem ipsum dolor sit amet consectetur adipisicing
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ------------------------------------end How it work------------------------------------- -->
+      <!-- -----------------------------------ACCESS PAGE---------------------------------------------- -->
+      <section
+        class="access-page container-fluid d-flex align-items-center justify-content-around my-5"
+      >
+        <div class="access-page-img">
+          <img class="graph" src="./assets/graph (1).png" alt="" />
+          <img class="girl-img" src="./assets/girl.png" alt="" />
+        </div>
+        <div class="access-page-info">
+          <div class="access-text">
+            <p>Access to Everything For Everyone</p>
+            <span
+              >Online learning program designed to prepare you for a career.
+              Courses include recorded video lectures, auto graded</span
+            >
+          </div>
+          <div class="access-check d-flex my-5 gap-5">
+            <div>
+              <p>
+                <span class="access-circle"
+                  ><img src="./assets/check.png" alt="" /></span
+                >World-class
+              </p>
+              <p>
+                <span class="access-circle"
+                  ><img src="./assets/check.png" alt="" /></span
+                >Flexible
+              </p>
+            </div>
+            <div>
+              <p>
+                <span class="access-circle"
+                  ><img src="./assets/check.png" alt="" /></span
+                >Affordable
+              </p>
+              <p>
+                <span class="access-circle"
+                  ><img src="./assets/check.png" alt="" /></span
+                >Job-relevant
+              </p>
+            </div>
+          </div>
+          <div>
+            <button class="access-btn">Get Started</button>
+          </div>
+        </div>
+      </section>
+      <!-- -----------------------------------END ACCESS PAGE---------------------------------------------- -->
+      <!-- --------------------------------------------MIDDLE CARD----------------------------------------- -->
+      <section
+        class="middle-card-container d-flex justify-content-around align-items-center"
+      >
+        <div
+          class="middle-card middle-card-1 d-flex align-items-center gap-3 p-4"
+        >
+          <div class="middle-card-img">
+            <img src="./assets/card/5.png" alt="" />
+          </div>
+          <div class="middle-card-info">
+            <p>Become a Teacher</p>
+            <span
+              >Anenim Njilam tempor sapier gravida done porta and b adrdit ipsum
+              enim</span
+            >
+            <button>Start Teaching</button>
+          </div>
+        </div>
+        <div
+          class="middle-card middle-card-2 d-flex align-items-center gap-3 p-4"
+        >
+          <div class="middle-card-img">
+            <img src="./assets/card/4.png" alt="" />
+          </div>
+          <div class="middle-card-info">
+            <p>Corrector for Business</p>
+            <span
+              >Anenim Njilam tempor sapier gravida done porta and b adrdit ipsum
+              enim</span
+            >
+            <button>For your Business</button>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------------------END MIDDLE CARD----------------------------------------- -->
+      <!-- ----------------------------------------------PROCESS PAGE------------------------------------------------  -->
+      <section
+        class="process-page d-flex align-items-center justify-content-around"
+      >
+        <div class="process-info d-flex flex-column align-items-start gap-3">
+          <p>Our Process Build Around Quality & Make it Perfect</p>
+          <span
+            >Anenim Njilam tempor sapier gravida done porta and b adrdit ipsum
+            enim justo integer actor imeer congue magna and purus pretlium
+            insuss igula nurtrum luctue</span
+          >
+          <span
+            >Anenim Njilam tempor sapier gravida done porta and b adrdit ipsum
+            enim justo integer actor imeer congue</span
+          >
+          <button>Get Started</button>
+        </div>
+        <div class="process-img">
+          <img src="./assets/couple.png" alt="" />
+        </div>
+      </section>
+      <!-- ----------------------------------------------END PROCESS PAGE------------------------------------------------  -->
+    </main>
+    <!-- -----------------------------------------FOOTER--------------------------------------  -->
+    <footer
+      class="footer d-flex flex-column justify-content-center align-items-center"
+    >
+      <section
+        class="footer-bottom d-flex align-items-start justify-content-around my-3"
+      >
+        <div class="footer-bottom-brand">
+          <p>Edo.dot</p>
+          <div class="d-flex justify-content-around">
+            <i class="fab fa-instagram footer-icon"></i>
+            <i class="fab fa-facebook footer-icon"></i>
+            <i class="fab fa-twitter footer-icon"></i>
+          </div>
+        </div>
+        <div class="footer-bottom-list">
+          <ul>
+            <p>E learn</p>
+            <li class="list-item">About</li>
+            <li class="list-item">What Learner</li>
+            <li class="list-item">Leadership</li>
+            <li class="list-item">Careers</li>
+            <li class="list-item">Catalog</li>
+            <li class="list-item">Inspiration</li>
+          </ul>
+        </div>
+        <div class="footer-bottom-list">
+          <ul>
+            <p>E learn</p>
+            <li class="list-item">About</li>
+            <li class="list-item">What Learner</li>
+            <li class="list-item">Leadership</li>
+            <li class="list-item">Careers</li>
+            <li class="list-item">Catalog</li>
+            <li class="list-item">Inspiration</li>
+          </ul>
+        </div>
+        <div class="footer-bottom-list last">
+          <ul>
+            <p>E learn</p>
+            <li class="list-item">About</li>
+            <li class="list-item">What Learner</li>
+            <li class="list-item">Leadership</li>
+            <li class="list-item">Careers</li>
+            <li class="list-item">Catalog</li>
+            <li class="list-item">Inspiration</li>
+          </ul>
+        </div>
+        <div class="footer-bottom-list last">
+          <ul>
+            <p>E learn</p>
+            <li class="list-item">About</li>
+            <li class="list-item">What Learner</li>
+            <li class="list-item">Leadership</li>
+            <li class="list-item">Careers</li>
+            <li class="list-item">Catalog</li>
+            <li class="list-item">Inspiration</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <!-- -----------------------------------------END FOOTER--------------------------------------  -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

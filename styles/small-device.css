@@ -1,0 +1,168 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .header.books {
+    width: 35px;
+    height: 35px;
+    top: 10px;
+    left: 15px;
+  }
+  .header .book {
+    width: 45px;
+    height: 45px;
+  }
+  .header .hamburger-icon {
+    display: block;
+    top: 25px;
+    right: 70px;
+    width: 40px;
+    height: 40px;
+  }
+  .header .theme-change {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 80px;
+    top: 10px;
+  }
+  .header .nav-section,
+  .header .nav-Login-btn,
+  .header .nav-SignUp-btn {
+    display: none;
+  }
+  .header .header-skills-top {
+    height: 250px;
+    width: 280px;
+  }
+  .header .get-skills-text {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .header .header-skills-top-middle {
+    width: 200px;
+  }
+  .header .header-skills-top-middle p {
+    width: 250px;
+    text-align: justify;
+    font-size: 12px;
+  }
+
+  .header .header-img-container img {
+    width: 300px;
+    height: 300px;
+  }
+  .header .get-start {
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .header .header-skills-top-btn {
+    margin-top: 20px;
+  }
+  .header .header-skills-top-btn div {
+    width: 40px;
+    height: 40px;
+  }
+  .header .header-poly img {
+    width: 15px;
+    height: 15px;
+  }
+  .header .header-skills-bottom-top p,
+  .header .header-skills-bottom-bottom p {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .header .header-skills-bottom-top span,
+  .header .header-skills-bottom-bottom span {
+    font-size: 15px;
+  }
+  .header .brand {
+    width: 80%;
+  }
+  .header .brand-container img {
+    width: 100px;
+  }
+
+  /* ------------------------------HOW IT WORK---------------------------  */
+  body .how-work-container {
+    margin-top: 50px;
+  }
+  .how-work-container .how-work {
+    width: 500px;
+    height: 500px;
+  }
+  .how-work-container .work-text {
+    font-size: 25px;
+  }
+  .how-work-container .how-work-div {
+    width: 220px;
+    height: 220px;
+  }
+
+  .how-work-container .info-1 p {
+    font-size: 15px;
+  }
+  .how-work-container .info-1 span {
+    width: 200px;
+    height: 68px;
+    font-size: 12px;
+  }
+  /* -----------------------ACCESS CHECK-----------------------  */
+  .main .access-page {
+    margin-top: 200px;
+  }
+  .access-page .graph {
+    width: 400px;
+    height: 563px;
+  }
+  .access-page .girl-img {
+    left: 20px;
+    width: 300px;
+    height: 400px;
+  }
+
+  .access-page .access-text {
+    width: 290px;
+  }
+  .access-page .access-text p {
+    font-size: 20px;
+  }
+  .access-page .access-text span {
+    font-size: 14px;
+  }
+  .access-page .access-check p {
+    font-size: 13px;
+  }
+  /* <!-- --------------------------------------------MIDDLE CARD----------------------------------------- --> */
+  .middle-card-container .middle-card {
+    width: 340px;
+  }
+  .middle-card-container .middle-card-info p {
+    font-size: 15px;
+  }
+  .middle-card-container .middle-card-info span {
+    font-size: 14px;
+  }
+  .middle-card-container .middle-card-info button {
+    font-size: 13px;
+  }
+  /* <!-- --------------------------------------------END MIDDLE CARD----------------------------------------- --> */
+  /* <!-- ----------------------------------------------PROCESS PAGE------------------------------------------------  --> */
+
+  main .process-page {
+    width: 100%;
+  }
+  .process-page .process-info p {
+    font-size: 35px;
+  }
+  .process-page .process-img {
+    width: 350px;
+  }
+  .process-page .process-img img {
+    width: 320px;
+    height: 400px;
+  }
+
+  /* ---------------------------FOOTER------------------ */
+  .footer .list-item {
+    font-size: 10px;
+  }
+}

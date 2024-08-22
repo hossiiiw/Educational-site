@@ -1,0 +1,86 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* ----------------------HEADER--------------------- */
+  .header .book {
+    width: 60px;
+    height: 60px;
+  }
+  .header .books {
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    top: 25px;
+  }
+  .header .hamburger-icon {
+    display: none;
+  }
+  .header .hamburger-menu {
+    width: 0;
+    height: 0;
+  }
+  .header .navbar-logo p {
+    font-size: 20px;
+  }
+
+  .header .get-skills-text {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .header .header-img-container img {
+    width: 300px;
+    height: 500px;
+  }
+  .header .brand {
+    width: 70%;
+  }
+  .header .brand-container img {
+    width: 130px;
+  }
+
+  /* -------------------HOW IT WORK---------------------------------  */
+  body .how-work-container {
+    margin-top: 150px;
+  }
+  .how-work-container .how-work {
+    width: 550px;
+    height: 550px;
+  }
+  .how-work-container .work-text {
+    font-size: 25px;
+  }
+  .how-work-container .how-work-div {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* -----------------------ACCESS CHECK-----------------------  */
+  .main .access-page {
+    margin-top: 200px;
+  }
+  .access-page .graph {
+    width: 600px;
+    height: 663px;
+  }
+  .access-page .girl-img {
+    left: 20px;
+  }
+
+  .access-page .access-text {
+    width: 350px;
+  }
+  .access-page .access-text p {
+    font-size: 30px;
+  }
+  .access-page .access-text span {
+    font-size: 14px;
+  }
+  /* <!-- --------------------------------------------END MIDDLE CARD----------------------------------------- --> */
+  main .process-page {
+    width: 100%;
+  }
+  .process-page .process-info p {
+    font-size: 35px;
+  }
+
+  /* --------------footer--------------- */
+}
