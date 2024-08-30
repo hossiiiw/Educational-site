@@ -97,19 +97,7 @@ a {
   top: 0;
   transform: rotate(-45deg);
 }
-.header-img-container img {
-  background-blend-mode: difference;
-    animation: fadeOut 2s forwards;
-  animation-timeline: scroll();
-}
-@keyframes fadeOut {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateZ(360deg);
-  }
-}
+
 .navbar {
   border-radius: 27px;
   height: 60px;
@@ -281,6 +269,23 @@ a {
   font-weight: 500px;
   color: var(--text-black);
   opacity: 80%;
+}
+
+.header-img-container img {
+  background-blend-mode: difference;
+  animation: moveToTop 1s linear 0.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveToTop {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 /*  */
 .brand {
